@@ -96,7 +96,7 @@ class Instamojo extends Controller
         $client = new Client([
           'base_uri' => $instamojo_url,
         ]);
-        //Set the instamojo API credentials
+        //Set the instamojo API credentials //chnage this to config or env imp
         $instamojo_cred = ["X-Api-Key"=>"a548dba7d6e9a248c5db47b8f75ae749",
           "X-Auth-Token"=> "6367883f83561504447a26ea21192f76"
         ];
